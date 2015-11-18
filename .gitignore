@@ -1,0 +1,4 @@
+*.tmTheme
+Package Control.cache/
+*.cache
+Package Control.*

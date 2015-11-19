@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-<div class="panel panel-primary">
+<div class="panel panel-${1:primary}">
 	<div class="panel-heading">
-		${1:title}
+		${2:title}
 	</div>
 	<div class="panel-body">
-		${2:bodyContent}
+		${3:bodyContent}
 	</div>
 </div>
 ]]></content>

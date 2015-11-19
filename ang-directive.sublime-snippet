@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+return {
+		restrict: '${1:E}',
+		bindToController: ${2:true},
+		controllerAs: 'vmd',
+		controller: controller,
+		transclude: ${3:true},
+		scope:{
+			${4:variable}: '${5:@}'
+		},
+		templateUrl: '${6:filename}.html',
+		link: link
+	};
+
+	function link(scope,el,attr) {
+
+	}
+
+	function controller() {
+		var vmd = this;
+
+		activate();
+
+		function activate() {
+			
+		}
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ang-directive</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Directive Return Sentence</description>
+	<scope>source.js</scope>
+</snippet>

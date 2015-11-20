@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 return {
-		restrict: '${1:E}',
+		restrict: '${1:EA}',
 		bindToController: ${2:true},
 		controllerAs: 'vmd',
 		controller: controller,
-		transclude: ${3:true},
+		transclude: ${3:false},
 		scope:{
-			${4:variable}: '${5:@}'
+			${4:variable}: '${5:@=&}'
 		},
 		templateUrl: '${6:filename}.html',
 		link: link

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+var vm = this;
+
+vm.${1:attrib};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ang-vm</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Angular VM Pattern</description>
+	<scope>source.js</scope>
+</snippet>

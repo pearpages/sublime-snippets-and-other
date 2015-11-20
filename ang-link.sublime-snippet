@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-function link(scope,el,${1:attrs},${2:ctrl},${3:transclude}) {
+function link(scope,el,${1:attr},${2:ctrl},${3:transclude}) {
 	
 }
 ]]></content>

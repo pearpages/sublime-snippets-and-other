@@ -5,17 +5,16 @@ return {
 		bindToController: ${2:true},
 		controllerAs: 'vmd',
 		controller: controller,
-		transclude: ${3:false},
 		scope:{
 			${4:variable}: '${5:@=&}'
 		},
 		templateUrl: '${6:filename}.html',
-		link: link
+		link: link,
+		transclude: ${3:true|'element'},
+		priority: 1200 //ng-repeat priority is 1000
 	};
 
-	function link(scope,el,attr) {
-
-	}
+	//call ang-link if needed
 
 	function controller() {
 		var vmd = this;

@@ -2,3 +2,4 @@
 Package Control.cache/
 *.cache
 Package Control.*
+*.sublime-settings

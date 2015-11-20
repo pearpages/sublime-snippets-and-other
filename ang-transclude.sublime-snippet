@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
-function link(scope,el,${1:attrs},${2:ctrl},${3:transclude}) {
+transclude(scope, function(clone,${1:scope}) {
 	
-}
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ang-link</tabTrigger>
+	<tabTrigger>ang-transclude</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<description>Angular Directive Link Function</description>
+	<description>Angular Directive Transclude Function</description>
 	<scope>source.js</scope>
 </snippet>

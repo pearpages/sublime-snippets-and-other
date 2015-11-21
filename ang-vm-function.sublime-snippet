@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+vm.${1:name} = ${1:name};
+
+function ${1:name}() {
+	
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ang-vm-function</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Angular VM Function Template</description>
+	<scope>source.js</scope>
+</snippet>

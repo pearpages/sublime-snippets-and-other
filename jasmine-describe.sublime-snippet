@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+describe('${1:name}', function() {
+	${2://code}
+});
+]]></content>
+	
+	<tabTrigger>jas-describe</tabTrigger>
+	<description>Jasmine Describe Function</description>
+	<scope>source.js</scope>
+</snippet>

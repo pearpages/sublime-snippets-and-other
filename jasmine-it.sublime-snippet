@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+it('${1:description}', function() {
+	
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jas-it</tabTrigger>
+	<description>Jasmine it Function</description>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+beforeEach(function() {
+	${1://code}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jas-before</tabTrigger>
+	<description>Jasmine beforeEach Function</description>
+	<scope>source.js</scope>
+</snippet>

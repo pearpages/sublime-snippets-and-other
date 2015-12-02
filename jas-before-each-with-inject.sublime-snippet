@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+beforeEach(inject(function(${1:_param_}) {
+
+}));
+]]></content>
+	<tabTrigger>jas-bef-inject</tabTrigger>
+	<description>Jasmine Beforeach with Inject</description>
+	<scope>source.js</scope>
+</snippet>

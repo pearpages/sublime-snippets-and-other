@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<div class="bar bar-header bar-${1:color}">
+  <h1 class="title">${2:title}</h1>
+</div>
+<ion-content class="has-header">${3:content}</ion-content>
+]]></content>
+    <tabTrigger>io-header</tabTrigger>
+    <description>Ionic Header With Title and Content</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="bar bar-footer bar-${1:color}">
+  <button class="button button-clear ${2:pull-left}">${3:button-left}</button>
+  <div class="title">${4:title}</div>
+  <button class="button button-clear ${5:pull-right}">${6:button-right}t</button>
+</div>
+]]></content>
+    <tabTrigger>io-footer</tabTrigger>
+    <description>Ionic Footer with Buttons</description>
+</snippet>

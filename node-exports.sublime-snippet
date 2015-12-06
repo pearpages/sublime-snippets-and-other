@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+module.exports = function() {
+    var ${1:name};
+
+    return ${1:name};  
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>exports</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <description>Node Exports Statement</description>
+    <scope>source.js</scope>
+</snippet>

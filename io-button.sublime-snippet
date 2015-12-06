@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<button class="button ${1:button-${2:block}} button-${3:positive}">
+  <i class="icon ${4:ion-star}"></i> ${5:Block Button}
+</button>
+${6:<!-- 
+    Description:
+        + size
+        + color
+        + clear / outlined
+        + with icons
+-->}
+]]></content>
+    <tabTrigger>io-button</tabTrigger>
+    <description>Ionic Button</description>
+</snippet>

@@ -1,10 +1,17 @@
 <snippet>
     <content><![CDATA[
 <div class="bar bar-header bar-${1:color}">
-  <h1 class="title">${2:title}</h1>
+    <button class="button button-icon icon ion-navicon"></button>
+    <h1 class="title">${2:title}</h1>
+    <button class="button button-icon icon ion-navicon"></button>
 </div>
 <ion-content class="has-header">${3:content}</ion-content>
+${4:<!-- 
+    Description: 
+        Like in the footer if we don't need/want a title we can still align a button to the right or left with
+        pull-right or pull-left
+-->}
 ]]></content>
     <tabTrigger>io-header</tabTrigger>
-    <description>Ionic Header With Title and Content</description>
+    <description>Ionic Header With Title,Buttons and Content</description>
 </snippet>

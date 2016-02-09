@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+---
+layout: ${1:post}
+title: "${2:title}"
+categories: ${3:category1 category2}
+date:  ${4:2015-05-26 19:40:22}
+---
+
+#### Contents
+{:.no_toc}
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jekyll-post</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
